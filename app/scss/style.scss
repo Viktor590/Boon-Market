@@ -188,6 +188,7 @@
   &-item__wrapper{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 40px;
   }
   &-item__img{
     margin: 0 auto;
@@ -244,15 +245,12 @@
     width: 28px;
     height: 25px;
   }
-  &-filter__item-wrapper{
-    button{
-      display: none;
-    }
-  }
   &-filter__item{
     padding-right: 30px;
   }
 }
-
-
+.swiper-container {
+  width: 1110px;
+  height: 500px;
+}
 @import 'media';

@@ -32,7 +32,6 @@ function scripts() {
     return src([
         'node_modules/jquery/dist/jquery.js',
         'node_modules/mixitup/dist/mixitup.js',
-        'node_modules/swiper/slick/slick.js',
         'app/js/main.js'
     ])
         .pipe(concat('main.min.js'))
